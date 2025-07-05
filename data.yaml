@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['Rachadura']
+
+roboflow:
+  workspace: projeto-ia-rachadura
+  project: projeto-ia-rachadura-2
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projeto-ia-rachadura/projeto-ia-rachadura-2/dataset/5
